@@ -1,0 +1,33 @@
+.bg-box {
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+
+  /* Зелений фон */
+  background-color: #2f6d0a;
+
+  /* Додаємо всі фони одночасно */
+  background-image:
+    url("https://www.freeiconspng.com/uploads/lamp-png-0.png"),   /* лампочки зверху */
+    url("https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png"),  /* трава знизу */
+    url("https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png"),  /* трава повтор */
+    url("https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg");        /* картинка будинку */
+
+  background-repeat:
+    repeat-x,   /* лампочки */
+    repeat-x,   /* трава */
+    repeat-x,   /* трава */
+    no-repeat;  /* будинок */
+
+  background-size:
+    50px,       /* лампочки */
+    200px,      /* трава */
+    200px,      /* трава */
+    400px;      /* будинок */
+
+  background-position:
+    top center,    /* лампочки */
+    bottom center, /* трава */
+    bottom center, /* трава */
+    center center; /* будинок */
+}
