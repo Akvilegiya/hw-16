@@ -1,33 +1,15 @@
 .bg-box {
-  width: 900px;
-  height: 500px;
-  margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    border: solid rgb(255, 0, 247);
+    background-image: url("https://th.bing.com/th/id/OIP.zHtYy800GhmmVF2UfkgymwHaJ4?w=142&h=186&c=7&r=0&o=7&pid=1.7&rm=3"),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRbG5VMzAExxF8Rwg1OUp5ag7XQ939pyO9wg&s"),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAPAIBz_0FXhr48kyNvOuR2hQKajMU9LTl9A&s"),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzdqHEL1XUBMdCh9KTqDPuw_msoMGSkp1_8w&s"),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKGmgmi7yPN-2v2yKAaWtdd6vCn91ivfiIBg&s");
+    background-size: 30px, 250px, 115px, 15px;
+    background-repeat: repeat-x, no-repeat, repeat-x, repeat-y, repeat-y;
+    background-position: left top, center, bottom, left, right;
 
-  /* Зелений фон */
-  background-color: #2f6d0a;
-
-  /* Додаємо всі фони одночасно */
-  background-image:
-    url("https://www.freeiconspng.com/uploads/lamp-png-0.png"),   /* лампочки зверху */
-    url("https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png"),  /* трава знизу */
-    url("https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png"),  /* трава повтор */
-    url("https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg");        /* картинка будинку */
-
-  background-repeat:
-    repeat-x,   /* лампочки */
-    repeat-x,   /* трава */
-    repeat-x,   /* трава */
-    no-repeat;  /* будинок */
-
-  background-size:
-    50px,       /* лампочки */
-    200px,      /* трава */
-    200px,      /* трава */
-    400px;      /* будинок */
-
-  background-position:
-    top center,    /* лампочки */
-    bottom center, /* трава */
-    bottom center, /* трава */
-    center center; /* будинок */
 }
